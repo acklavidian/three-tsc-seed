@@ -1,14 +1,14 @@
 import { Group } from 'three';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-import MODEL from './Flower.glb';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import MODEL from './Land.glb';
 
-export default class Flower extends Group {
+export default class Land extends Group {
   constructor() {
     const loader = new GLTFLoader();
     
     super();
 
-    this.name = 'flower';
+    this.name = 'land';
 
     loader.load(MODEL, (gltf)=>{
       this.add(gltf.scene);

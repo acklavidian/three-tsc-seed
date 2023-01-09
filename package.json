@@ -1,7 +1,7 @@
 {
-  "name": "three-seed",
+  "name": "three-tsc-seed",
   "version": "0.4.0",
-  "description": "Three.js starter project boilerplate bundled with webpack",
+  "description": "Three.js + Typescript starter project boilerplate bundled with webpack",
   "keywords": [
     "webgl",
     "boilerplate",
@@ -21,11 +21,14 @@
   "devDependencies": {
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
+    "@types/three": "^0.148.0",
     "babel-loader": "^9.1.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "raw-loader": "^4.0.2",
     "rimraf": "^3.0.2",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4",
     "webpack": "^5.75.0",
     "webpack-dev-server": "^4.11.1"
   },

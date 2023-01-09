@@ -1,7 +1,7 @@
 import { Group } from 'three';
-import Land from './Land/Land.js';
-import Flower from './Flower/Flower.js';
-import BasicLights from './Lights.js';
+import Land from './Land/Land';
+import Flower from './Flower/Flower';
+import BasicLights from './Lights';
 
 export default class SeedScene extends Group {
   constructor() {
@@ -14,7 +14,7 @@ export default class SeedScene extends Group {
     this.add(land, flower, lights);
   }
 
-  update(timeStamp) {
+  update(timeStamp: number) {
     this.rotation.y = timeStamp / 10000;
   }
 }

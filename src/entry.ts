@@ -8,7 +8,7 @@
  */
 
 import { WebGLRenderer, PerspectiveCamera, Scene, Vector3 } from 'three';
-import SeedScene from './objects/Scene.js';
+import SeedScene from './objects/Scene';
 
 const scene = new Scene();
 const camera = new PerspectiveCamera();
@@ -27,7 +27,7 @@ renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setClearColor(0x7ec0ee, 1);
 
 // render loop
-const onAnimationFrameHandler = (timeStamp) => {
+const onAnimationFrameHandler = (timeStamp: number) => {
   renderer.render(scene, camera);
   seedScene.update && seedScene.update(timeStamp);
   window.requestAnimationFrame(onAnimationFrameHandler);
@@ -45,5 +45,5 @@ windowResizeHanlder();
 window.addEventListener('resize', windowResizeHanlder);
 
 // dom
-document.body.style.margin = 0;
+document.body.style.margin = '0';
 document.body.appendChild( renderer.domElement );

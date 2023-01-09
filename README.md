@@ -1,22 +1,22 @@
-# Three Seed
+# Three TSC Seed
 
 Three.js starter project boilerplate bundled with Webpack.
 
 This project is designed to help you get started on your next three.js project. It sets up a simple scene, camera and renderer to view two imported GLTF assets.
 
-[Online Demo](http://edwinwebb.github.io/three-seed/)
+[Online Demo](http://edwinwebb.github.io/three-tsc-seed/)
 
 ## Install
 Before you begin, make sure you are comfortable with terminal commands and have [Node and NPM installed](https://www.npmjs.com/get-npm). Then either install via a download or with Git.
 
 ### Install via Download
-First download the [zip of the project](https://github.com/edwinwebb/three-seed/archive/master.zip) and extract it. Then in terminal at that folder type `npm install` to set things up. To get going run: `npm start`.
+First download the [zip of the project](https://github.com/edwinwebb/three-tsc-seed/archive/master.zip) and extract it. Then in terminal at that folder type `npm install` to set things up. To get going run: `npm start`.
 
 ### Install with Git
 In terminal clone the project into a directory of your choice then delete the git folder to start fresh.
 
 ```bash
-git clone --depth=1 https://github.com/edwinwebb/three-seed.git my-project
+git clone --depth=1 https://github.com/edwinwebb/three-tsc-seed.git my-project
 cd my-project
 rm -rf .git
 npm install
@@ -50,7 +50,7 @@ When using this project you might bump into a few issues around using
 the examples from three.js docs. Most of the common issues have been 
 solved with including NPM packages. However, for more complex examples 
 with custom script includes you might find yourself having to refactor 
-them. See [Issue 15](https://github.com/edwinwebb/three-seed/issues/15) 
+them. See [Issue 15](https://github.com/edwinwebb/three-tsc-seed/issues/15) 
 for an example.
 
 ## About the models
@@ -64,4 +64,4 @@ Both the models are loaded by the GLTFLoader and were sourced from the Google Po
 Once you are happy with your project you'll be sure to want to show it off. Running `npm run build` in terminal will bundle your project into the folder `./build/`. You can upload this directory to a web server. For more complex results read [this guide](https://webpack.js.org/guides/production/).
 
 ## License
-[MIT](https://github.com/edwinwebb/three-seed/blob/master/LICENSE)
+[MIT](https://github.com/edwinwebb/three-tsc-seed/blob/master/LICENSE)
